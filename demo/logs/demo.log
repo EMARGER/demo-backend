@@ -1,0 +1,449 @@
+2025-07-08 09:42:48,961 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 9988 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:42:48,964 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:42:50,754 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:42:50,789 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:42:52,216 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:42:52,252 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:42:52,253 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:42:52,393 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:42:52,393 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3345 ms
+2025-07-08 09:42:52,904 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:42:52,907 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:42:53,591 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fde1d64
+2025-07-08 09:42:53,596 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:42:53,680 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:42:53,808 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:42:53,880 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:42:54,468 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:42:55,110 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:42:55,128 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:42:55,447 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:42:56,763 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:42:56,947 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 09:42:56,969 INFO  [main] com.atul.demo.Main : Started Main in 8.925 seconds (process running for 9.868)
+2025-07-08 09:49:33,043 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 14384 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:49:33,047 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:49:34,810 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:49:34,846 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:49:36,191 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:49:36,215 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:49:36,215 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:49:36,332 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:49:36,332 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3193 ms
+2025-07-08 09:49:36,907 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:49:36,909 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:49:37,457 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@74ebd159
+2025-07-08 09:49:37,461 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:49:37,533 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:49:37,636 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:49:37,697 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:49:38,188 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:49:38,738 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:49:38,746 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:49:39,061 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:49:40,300 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:49:40,408 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-08 09:49:40,412 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:49:40,417 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Shutdown initiated...
+2025-07-08 09:49:40,428 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Shutdown completed.
+2025-07-08 09:49:40,456 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-08 09:49:40,481 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1002 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1002 or configure this application to listen on another port.
+
+2025-07-08 09:49:54,812 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 8084 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:49:54,815 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:49:56,527 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:49:56,561 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:49:57,855 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:49:57,881 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:49:57,882 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:49:58,008 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:49:58,009 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3111 ms
+2025-07-08 09:49:58,517 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:49:58,519 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:49:59,122 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e8b24a1
+2025-07-08 09:49:59,126 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:49:59,210 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:49:59,310 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:49:59,368 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:49:59,903 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:50:00,328 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:50:00,336 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:50:00,598 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:50:01,756 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:50:01,870 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 09:50:01,887 INFO  [main] com.atul.demo.Main : Started Main in 7.927 seconds (process running for 8.638)
+2025-07-08 09:50:33,407 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 11724 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:50:33,413 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:50:35,107 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:50:35,138 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:50:36,395 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:50:36,424 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:50:36,425 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:50:36,545 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:50:36,547 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3029 ms
+2025-07-08 09:50:37,104 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:50:37,106 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:50:37,631 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@443af394
+2025-07-08 09:50:37,635 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:50:37,710 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:50:37,811 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:50:37,872 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:50:38,365 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:50:38,881 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:50:38,893 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:50:39,198 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:50:40,393 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:50:40,518 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 09:50:40,535 INFO  [main] com.atul.demo.Main : Started Main in 8.035 seconds (process running for 8.792)
+2025-07-08 09:51:41,590 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 4600 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:51:41,594 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:51:43,382 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:51:43,420 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:51:44,733 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:51:44,757 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:51:44,758 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:51:44,899 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:51:44,899 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3219 ms
+2025-07-08 09:51:45,466 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:51:45,469 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:51:46,036 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@443af394
+2025-07-08 09:51:46,039 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:51:46,115 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:51:46,216 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:51:46,278 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:51:46,829 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:51:47,350 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:51:47,361 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:51:47,686 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:51:49,043 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:51:49,155 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 09:51:49,173 INFO  [main] com.atul.demo.Main : Started Main in 8.468 seconds (process running for 9.222)
+2025-07-08 09:58:10,734 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 17048 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:58:10,737 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:58:12,476 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:58:12,505 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:58:13,874 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:58:13,925 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:58:13,926 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:58:14,077 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:58:14,078 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3258 ms
+2025-07-08 09:58:14,646 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:58:14,649 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:58:15,286 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e8b24a1
+2025-07-08 09:58:15,291 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:58:15,375 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:58:15,546 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:58:15,610 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:58:16,146 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:58:16,597 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:58:16,605 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:58:16,874 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:58:18,062 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:58:18,169 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-08 09:58:18,173 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:58:18,178 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Shutdown initiated...
+2025-07-08 09:58:18,189 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Shutdown completed.
+2025-07-08 09:58:18,217 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-08 09:58:18,244 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1002 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1002 or configure this application to listen on another port.
+
+2025-07-08 09:58:32,604 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 4212 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 09:58:32,609 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 09:58:34,362 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 09:58:34,393 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-07-08 09:58:35,689 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 09:58:35,712 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 09:58:35,712 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 09:58:35,814 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 09:58:35,814 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3091 ms
+2025-07-08 09:58:36,361 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 09:58:36,363 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 09:58:36,875 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d637673
+2025-07-08 09:58:36,880 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 09:58:36,948 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 09:58:37,048 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 09:58:37,112 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 09:58:37,569 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 09:58:38,058 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 09:58:38,067 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 09:58:38,424 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 09:58:39,708 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 09:58:39,818 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 09:58:39,837 INFO  [main] com.atul.demo.Main : Started Main in 8.121 seconds (process running for 8.841)
+2025-07-08 10:48:39,900 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 3880 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 10:48:39,904 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 10:48:41,794 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 10:48:41,824 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-07-08 10:48:43,184 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 10:48:43,210 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 10:48:43,210 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 10:48:43,336 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 10:48:43,337 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3348 ms
+2025-07-08 10:48:43,891 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 10:48:43,894 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 10:48:44,571 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@7198ab9a
+2025-07-08 10:48:44,577 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 10:48:44,669 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 10:48:44,788 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 10:48:44,857 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 10:48:45,389 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 10:48:45,993 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 10:48:46,002 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 10:48:46,359 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 10:48:47,726 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 10:48:47,850 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 10:48:47,869 INFO  [main] com.atul.demo.Main : Started Main in 8.96 seconds (process running for 9.768)
+2025-07-08 10:51:27,818 INFO  [http-nio-1002-exec-6] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 10:51:27,819 INFO  [http-nio-1002-exec-6] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-07-08 10:51:27,823 INFO  [http-nio-1002-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2025-07-08 10:51:28,895 INFO  [http-nio-1002-exec-3] org.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 283 ms
+2025-07-08 10:59:21,935 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 4148 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 10:59:21,939 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 10:59:23,849 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 10:59:23,890 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2025-07-08 10:59:25,214 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 10:59:25,246 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 10:59:25,247 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 10:59:25,380 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 10:59:25,381 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3362 ms
+2025-07-08 10:59:25,893 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 10:59:25,895 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 10:59:26,457 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@2913ca3e
+2025-07-08 10:59:26,461 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 10:59:26,542 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 10:59:26,635 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 10:59:26,696 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 10:59:27,147 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 10:59:27,562 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 10:59:27,571 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 10:59:27,836 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 10:59:28,997 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 10:59:29,117 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 10:59:29,136 INFO  [main] com.atul.demo.Main : Started Main in 8.004 seconds (process running for 8.72)
+2025-07-08 11:04:16,779 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 8668 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 11:04:16,783 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 11:04:18,538 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 11:04:18,623 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2025-07-08 11:04:19,919 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 11:04:19,950 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 11:04:19,951 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 11:04:20,074 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 11:04:20,075 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3174 ms
+2025-07-08 11:04:20,615 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 11:04:20,638 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 11:04:21,156 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@778c2e7c
+2025-07-08 11:04:21,160 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 11:04:21,293 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 11:04:21,406 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 11:04:21,463 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 11:04:21,966 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 11:04:23,052 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 11:04:23,334 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 11:04:23,349 INFO  [main] com.atul.demo.controller.ProjectController : ProjectController :  Object Created
+2025-07-08 11:04:23,746 INFO  [main] com.atul.demo.service.FileService : FileService : Object Created
+2025-07-08 11:04:23,753 INFO  [main] com.atul.demo.service.FileService : Init File Service
+2025-07-08 11:04:23,754 INFO  [main] com.atul.demo.service.FileService : Base Repo Does Not Exist ... Createing New Repo
+2025-07-08 11:04:23,754 INFO  [main] com.atul.demo.service.FileService : Base Repo SuccessFull Create
+2025-07-08 11:04:23,755 INFO  [main] com.atul.demo.service.FileService : Max File Size : 5000000 
+2025-07-08 11:04:23,972 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 11:04:24,915 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 11:04:25,037 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 11:04:25,058 INFO  [main] com.atul.demo.Main : Started Main in 9.167 seconds (process running for 9.934)
+2025-07-08 11:04:56,197 INFO  [http-nio-1002-exec-6] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 11:04:56,198 INFO  [http-nio-1002-exec-6] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-07-08 11:04:56,204 INFO  [http-nio-1002-exec-6] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 5 ms
+2025-07-08 11:04:57,181 INFO  [http-nio-1002-exec-8] org.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 508 ms
+2025-07-08 11:06:58,786 ERROR [http-nio-1002-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [/demo-api-local] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	LOGGER cannot be resolved
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	LOGGER cannot be resolved
+
+	at com.atul.demo.controller.ProjectController.addProject(ProjectController.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-08 11:10:17,321 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 4976 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 11:10:17,325 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 11:10:19,047 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 11:10:19,138 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-07-08 11:10:20,384 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 11:10:20,408 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 11:10:20,408 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 11:10:20,529 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 11:10:20,529 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3123 ms
+2025-07-08 11:10:21,111 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 11:10:21,113 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 11:10:21,713 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@702096ef
+2025-07-08 11:10:21,716 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 11:10:21,824 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 11:10:21,923 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 11:10:21,992 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 11:10:22,481 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 11:10:23,594 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 11:10:23,848 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 11:10:23,867 INFO  [main] com.atul.demo.controller.ProjectController : ProjectController :  Object Created
+2025-07-08 11:10:24,287 INFO  [main] com.atul.demo.service.FileService : FileService : Object Created
+2025-07-08 11:10:24,294 INFO  [main] com.atul.demo.service.FileService : Init File Service
+2025-07-08 11:10:24,295 INFO  [main] com.atul.demo.service.FileService : Base Repo already Exist
+2025-07-08 11:10:24,295 INFO  [main] com.atul.demo.service.FileService : Max File Size : 5000000 
+2025-07-08 11:10:24,510 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 11:10:25,562 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 11:10:25,683 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 11:10:25,704 INFO  [main] com.atul.demo.Main : Started Main in 9.281 seconds (process running for 10.005)
+2025-07-08 11:10:41,887 INFO  [http-nio-1002-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 11:10:41,888 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-07-08 11:10:41,890 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2025-07-08 11:10:42,097 INFO  [http-nio-1002-exec-1] com.atul.demo.controller.ProjectController : Start Add Project With Name : string 
+2025-07-08 11:10:42,102 INFO  [http-nio-1002-exec-1] com.atul.demo.controller.ProjectController : File Name : image2.jpeg and Size : 8784
+2025-07-08 11:10:42,127 INFO  [http-nio-1002-exec-1] com.atul.demo.service.FileService : File Path : ./storage/users/48659ec2-ff31-4767-a303-c09cba81f5ff.jpeg 
+2025-07-08 11:10:42,306 INFO  [http-nio-1002-exec-1] com.atul.demo.controller.ProjectController : Prject Response Modal Reseived
+2025-07-08 11:30:11,211 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 12024 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 11:30:11,215 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 11:30:12,921 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 11:30:13,009 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2025-07-08 11:30:14,323 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 11:30:14,356 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 11:30:14,357 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 11:30:14,472 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 11:30:14,472 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3189 ms
+2025-07-08 11:30:15,031 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 11:30:15,046 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 11:30:15,588 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@69fe7090
+2025-07-08 11:30:15,592 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 11:30:15,728 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 11:30:15,833 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 11:30:15,892 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 11:30:16,308 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 11:30:17,530 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 11:30:17,821 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 11:30:17,839 INFO  [main] com.atul.demo.controller.ProjectController : ProjectController :  Object Created
+2025-07-08 11:30:18,187 INFO  [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-08 11:30:18,506 INFO  [main] com.atul.demo.service.FileService : FileService : Object Created
+2025-07-08 11:30:18,511 INFO  [main] com.atul.demo.service.FileService : Init File Service
+2025-07-08 11:30:18,512 INFO  [main] com.atul.demo.service.FileService : Base Repo already Exist
+2025-07-08 11:30:18,512 INFO  [main] com.atul.demo.service.FileService : Max File Size : 5000000 
+2025-07-08 11:30:18,734 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 11:30:19,707 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 11:30:19,817 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 11:30:19,838 INFO  [main] com.atul.demo.Main : Started Main in 9.504 seconds (process running for 10.27)
+2025-07-08 11:30:32,282 INFO  [http-nio-1002-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 11:30:32,283 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-07-08 11:30:32,288 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 5 ms
+2025-07-08 11:30:33,502 INFO  [http-nio-1002-exec-4] org.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 414 ms
+2025-07-08 11:30:51,322 INFO  [http-nio-1002-exec-5] com.atul.demo.controller.ProjectController : Fetching All Project Details
+2025-07-08 12:10:10,726 INFO  [main] com.atul.demo.Main : Starting Main using Java 21.0.5 with PID 3900 (F:\eclips workspace\demo\target\classes started by hp in F:\eclips workspace\demo)
+2025-07-08 12:10:10,730 INFO  [main] com.atul.demo.Main : The following 1 profile is active: "local"
+2025-07-08 12:10:13,172 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-08 12:10:13,328 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2025-07-08 12:10:15,190 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 1002 (http)
+2025-07-08 12:10:15,227 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-08 12:10:15,228 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-08 12:10:15,390 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring embedded WebApplicationContext
+2025-07-08 12:10:15,391 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4552 ms
+2025-07-08 12:10:16,102 WARN  [main] com.zaxxer.hikari.HikariConfig : demo-pool-local - idleTimeout is less than 10000ms, setting to default 600000ms.
+2025-07-08 12:10:16,109 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Starting...
+2025-07-08 12:10:16,852 INFO  [main] com.zaxxer.hikari.pool.HikariPool : demo-pool-local - Added connection com.mysql.cj.jdbc.ConnectionImpl@13c90c06
+2025-07-08 12:10:16,856 INFO  [main] com.zaxxer.hikari.HikariDataSource : demo-pool-local - Start completed.
+2025-07-08 12:10:17,025 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-08 12:10:17,182 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-08 12:10:17,277 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-08 12:10:17,989 INFO  [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-08 12:10:19,794 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-08 12:10:20,321 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-08 12:10:20,348 INFO  [main] com.atul.demo.controller.ClientController : ClientController :  Object Created
+2025-07-08 12:10:20,674 INFO  [main] org.springframework.data.jpa.repository.query.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-08 12:10:20,959 INFO  [main] com.atul.demo.service.FileService : FileService : Object Created
+2025-07-08 12:10:20,965 INFO  [main] com.atul.demo.service.FileService : Init File Service
+2025-07-08 12:10:20,965 INFO  [main] com.atul.demo.service.FileService : Base Repo already Exist
+2025-07-08 12:10:20,965 INFO  [main] com.atul.demo.service.FileService : Max File Size : 5000000 
+2025-07-08 12:10:20,970 INFO  [main] com.atul.demo.controller.ProjectController : ProjectController :  Object Created
+2025-07-08 12:10:21,222 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-08 12:10:22,117 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 12:10:22,219 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 1002 (http) with context path '/demo-api-local'
+2025-07-08 12:10:22,235 INFO  [main] com.atul.demo.Main : Started Main in 12.67 seconds (process running for 13.76)
+2025-07-08 12:10:47,519 INFO  [http-nio-1002-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo-api-local] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 12:10:47,520 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2025-07-08 12:10:47,524 INFO  [http-nio-1002-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2025-07-08 12:10:49,058 INFO  [http-nio-1002-exec-5] org.springdoc.api.AbstractOpenApiResource : Init duration for springdoc-openapi is: 508 ms
+2025-07-08 12:12:08,675 INFO  [http-nio-1002-exec-6] com.atul.demo.controller.ClientController : Start Add Client With Name : string 
+2025-07-08 12:12:08,682 INFO  [http-nio-1002-exec-6] com.atul.demo.controller.ClientController : File Name : image5.jpg and Size : 51264
+2025-07-08 12:12:08,709 INFO  [http-nio-1002-exec-6] com.atul.demo.service.FileService : File Path : ./storage/users/31a7160a-1aaf-4a41-9f5a-d249d9f8ffd8.jpg 
+2025-07-08 12:12:08,916 INFO  [http-nio-1002-exec-6] com.atul.demo.controller.ClientController : Client Response Modal Reseived
+2025-07-08 12:12:29,645 INFO  [http-nio-1002-exec-8] com.atul.demo.controller.ClientController : Fetching All Client Details

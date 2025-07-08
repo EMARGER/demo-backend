@@ -1,0 +1,5 @@
+spring:
+  name: demo
+  profiles:
+    active: local
+  
